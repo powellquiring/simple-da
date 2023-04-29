@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "tags": [
         "network",
         "network_vpc"
@@ -26,7 +26,19 @@
               "key": "random_character_count",
               "required": true
             }
-          ]
+          ],
+          "architecture": {
+            "diagrams": [
+              {
+                "diagram": {
+                  "caption": "Architecture",
+                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/architecture.svg",
+                  "metadata": []
+                },
+                "description": "A simple deployable architecture"
+              }
+            ]
+          }
         }
       ]
     }
