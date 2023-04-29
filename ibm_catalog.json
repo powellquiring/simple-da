@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "label": "Simple deployable architecture",
+      "name": "simple-da",
+      "version": "1.0.1",
+      "product_kind": "solution",
+      "short_description": "A simple deployable architecture",
+      "long_description": "A simple deployable architecture to use as a starting point and test things around."
+    }
+  ]
+}
