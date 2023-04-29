@@ -31,7 +31,7 @@
             "diagrams": [
               {
                 "diagram": {
-                  "caption": "Architecture",
+                  "caption": "Architecture diagram",
                   "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/architecture.svg",
                   "metadata": []
                 },
