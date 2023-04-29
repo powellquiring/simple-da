@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "tags": [
         "network",
         "network_vpc"
@@ -20,7 +20,13 @@
         {
           "label": "Standard",
           "name": "simple-da",
-          "install_type": "fullstack"
+          "install_type": "fullstack",
+          "configuration": [
+            {
+              "key": "random_character_count",
+              "required": true
+            }
+          ]
         }
       ]
     }
