@@ -1,12 +1,27 @@
 {
   "products": [
     {
-      "label": "Simple deployable architecture",
       "name": "simple-da",
-      "version": "1.0.1",
+      "label": "Simple deployable architecture",
       "product_kind": "solution",
+      "tags": [
+        "network",
+        "network_vpc"
+      ],
+      "keywords": [
+        "vpc"
+      ],
       "short_description": "A simple deployable architecture",
-      "long_description": "A simple deployable architecture to use as a starting point and test things around."
+      "long_description": "A simple deployable architecture to use as a starting point and test things around.",
+      "offering_docs_url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/README.md",
+      "support_details": "This is a demonstration and no official support is given.",
+      "flavors": [
+        {
+          "label": "Standard",
+          "name": "simple-da",
+          "install_type": "fullstack"
+        }
+      ]
     }
   ]
 }
