@@ -27,7 +27,7 @@ resource "random_string" "random" {
 }
 
 locals {
-  basename = var.prefix == "" ? "simple-da-${random_string.random.0.result}" : var.prefix
+  basename = lower(var.prefix == "" ? "simple-da-${random_string.random.0.result}" : var.prefix)
 }
 
 resource "ibm_resource_group" "group" {
