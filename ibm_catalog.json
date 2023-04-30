@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.14",
+      "version": "1.0.15",
       "tags": [
         "network_vpc",
         "Technology"
@@ -35,7 +35,15 @@
                   "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/architecture.svg",
                   "metadata": []
                 },
-                "description": "A simple deployable architecture"
+                "description": "A simple deployable architecture."
+              },
+              {
+                "diagram": {
+                  "caption": "Terraform resources",
+                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/graph.svg",
+                  "metadata": []
+                },
+                "description": "A view of the Terraform constructs used within the deployable architecture."
               }
             ]
           }
