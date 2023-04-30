@@ -51,3 +51,12 @@ resource "ibm_iam_access_group" "developers" {
   description = "Developers for ${local.basename}"
   tags        = var.tags
 }
+
+resource "ibm_is_vpc" "vpc" {
+  resource_group              = ibm_resource_group.group.id
+  name                        = "${local.basename}-vpc"
+  default_security_group_name = "${local.basename}-sec-group"
+  default_network_acl_name    = "${local.basename}-acl-group"
+  default_routing_table_name  = "${local.basename}-routing-group"
+  tags                        = var.tags
+}
