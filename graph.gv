@@ -30,7 +30,7 @@ digraph G {
 
   subgraph cluster_variables {
     label = "Variables"
-    style=dotted
+    style = dotted
 
     "[root] var.prefix" [label = "var.prefix", shape = "note"]
     "[root] var.region" [label = "var.region", shape = "note"]
@@ -39,7 +39,7 @@ digraph G {
 
   subgraph cluster_locals {
     label = "Locals"
-    style=dotted
+    style = dotted
 
     "[root] random_string.random (expand)" [label = "random_string.random", shape = "box"]
     "[root] local.basename (expand)" [ label = "local.basename" ]
@@ -47,7 +47,7 @@ digraph G {
 
   subgraph cluster_vpc {
     label = "Resources"
-    style=dotted
+    style = dotted
 
     "[root] ibm_is_vpc.vpc (expand)" [ label = "ibm_is_vpc.vpc" ]
     "[root] ibm_resource_group.group (expand)" [label = "ibm_resource_group.group", shape = "box"]
@@ -58,7 +58,7 @@ digraph G {
 
   subgraph cluster_iam {
     label = "IAM"
-    style=dotted
+    style = dotted
 
     "[root] ibm_iam_access_group.administrators (expand)" [label = "ibm_iam_access_group.administrators", shape = "box"]
     "[root] ibm_iam_access_group.developers (expand)" [label = "ibm_iam_access_group.developers", shape = "box"]
@@ -69,6 +69,13 @@ digraph G {
     "[root] ibm_iam_access_group.operators (expand)" [ style = "invis" ]
   }
 
+  subgraph cluster_outputs {
+    label = "Outputs"
+    style = dotted
+
+    "[root] output.vpc_id (expand)" [ label = "output.vpc_id" ]
+  }
+
   "[root] ibm_iam_access_group.administrators (expand)" -> "[root] local.basename (expand)"
   "[root] ibm_iam_access_group.developers (expand)" -> "[root] local.basename (expand)"
   "[root] ibm_iam_access_group.operators (expand)" -> "[root] local.basename (expand)"
@@ -77,6 +84,7 @@ digraph G {
   "[root] ibm_resource_group.group (expand)" -> "[root] local.basename (expand)"
   "[root] local.basename (expand)" -> "[root] random_string.random (expand)"
   "[root] random_string.random (expand)" -> "[root] var.prefix"
+  "[root] output.vpc_id (expand)" -> "[root] ibm_is_vpc.vpc (expand)"
 
   "[root] var.prefix",
   "[root] var.region",
@@ -103,5 +111,12 @@ digraph G {
     style = "filled"
     fillcolor = "#f6f2ff"
     color = "#a56eff"
+  ]
+
+  "[root] output.vpc_id (expand)"
+  [
+    style = "filled"
+    fillcolor = "#e2fcea"
+    color = "#2aaa54"
   ]
 }

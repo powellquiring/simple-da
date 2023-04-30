@@ -29,6 +29,11 @@
 <polygon fill="#ffffff" stroke="black" stroke-dasharray="1,5" points="358.15,-8 358.15,-271 735.32,-271 735.32,-8 358.15,-8"/>
 <text text-anchor="middle" x="378.65" y="-15.8" font-family="Helvetica,sans-Serif" font-size="14.00">IAM</text>
 </g>
+<g id="clust5" class="cluster">
+<title>cluster_outputs</title>
+<polygon fill="#ffffff" stroke="black" stroke-dasharray="1,5" points="71.31,-8 71.31,-83 236.13,-83 236.13,-8 71.31,-8"/>
+<text text-anchor="middle" x="103.81" y="-15.8" font-family="Helvetica,sans-Serif" font-size="14.00">Outputs</text>
+</g>
 <!-- [root] var.prefix -->
 <g id="node1" class="node">
 <title>[root] var.prefix</title>
@@ -145,6 +150,18 @@
 <title>[root] ibm_iam_access_group.operators (expand)&#45;&gt;[root] local.basename (expand)</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M527.76,-263.74C527.76,-276.89 527.76,-295.07 527.76,-310.16"/>
 <polygon fill="#000000" stroke="#000000" points="527.76,-320 523.26,-310 527.76,-315 527.76,-310 527.76,-310 527.76,-310 527.76,-315 532.26,-310 527.76,-320 527.76,-320"/>
+</g>
+<!-- [root] output.vpc_id (expand) -->
+<g id="node11" class="node">
+<title>[root] output.vpc_id (expand)</title>
+<polygon fill="#e2fcea" stroke="#2aaa54" stroke-width="2" points="197.76,-75 109.76,-75 109.76,-39 197.76,-39 197.76,-75"/>
+<text text-anchor="middle" x="153.76" y="-53.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#646365">output.vpc_id</text>
+</g>
+<!-- [root] output.vpc_id (expand)&#45;&gt;[root] ibm_is_vpc.vpc (expand) -->
+<g id="edge12" class="edge">
+<title>[root] output.vpc_id (expand)&#45;&gt;[root] ibm_is_vpc.vpc (expand)</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M153.76,-75.74C153.76,-88.89 153.76,-107.07 153.76,-122.16"/>
+<polygon fill="#000000" stroke="#000000" points="153.76,-132 149.26,-122 153.76,-127 153.76,-122 153.76,-122 153.76,-122 153.76,-127 158.26,-122 153.76,-132 153.76,-132"/>
 </g>
 </g>
 </svg>
