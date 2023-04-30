@@ -37,7 +37,7 @@
               {
                 "diagram": {
                   "caption": "Architecture diagram",
-                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/architecture.svg",
+                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/xdocs/architecture.svg",
                   "metadata": []
                 },
                 "description": "A simple deployable architecture."
@@ -45,7 +45,7 @@
               {
                 "diagram": {
                   "caption": "Terraform resources",
-                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/graph.svg",
+                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/xdocs/graph.svg",
                   "metadata": []
                 },
                 "description": "A view of the Terraform constructs used within the deployable architecture."
