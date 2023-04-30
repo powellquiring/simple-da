@@ -60,3 +60,8 @@ resource "ibm_is_vpc" "vpc" {
   default_routing_table_name  = "${local.basename}-routing-group"
   tags                        = var.tags
 }
+
+output "vpc_id" {
+  description = "ID of the created VPC"
+  value       = ibm_is_vpc.vpc.id
+}
