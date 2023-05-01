@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "tags": [
         "network_vpc",
         "Technology"
@@ -30,6 +30,22 @@
           "outputs": [
             {
               "key": "vpc_id"
+            }
+          ],
+          "compliance": [
+            {
+              "authority": "scc-v3",
+              "controls": [
+                {
+                  "profile": {
+                    "name": "IBM Cloud Security Best Practices",
+                    "version": "1.1.0"
+                  },
+                  "names": [
+                    "4.40"
+                  ]
+                }
+              ]
             }
           ],
           "architecture": {
