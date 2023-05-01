@@ -1,0 +1,6 @@
+# https://git-scm.com/docs/gitattributes#_creating_an_archive
+xdocs/architecture.drawio export-ignore
+xdocs/architecture.png    export-ignore
+xdocs/DEVELOP.md          export-ignore
+xdocs/graph.gv            export-ignore
+xdocs/blog*               export-ignore
