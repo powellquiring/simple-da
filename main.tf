@@ -32,6 +32,7 @@ locals {
 
 resource "ibm_resource_group" "group" {
   name = "${local.basename}-group"
+  tags = var.tags
 }
 
 resource "ibm_iam_access_group" "administrators" {
