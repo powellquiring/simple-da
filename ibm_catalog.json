@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.22",
+      "version": "1.0.23",
       "tags": [
         "network_vpc",
         "Technology"
@@ -41,7 +41,7 @@
                   "version": "1.1.0"
                 },
                 "names": [
-                  "4.40"
+                  "4.39"
                 ]
               }
             ]

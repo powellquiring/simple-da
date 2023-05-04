@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.23 - 2023-05-04
+
+### Added
+### Changed
+   * Changed control to check for classic access.
+### Fixed
+
 ## 1.0.22 - 2023-05-02
 
 ### Added
