@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "name": "simple-da",
+      "name": "pfq",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.25",
+      "version": "1.0.0",
       "tags": [
         "network_vpc",
         "Technology"
