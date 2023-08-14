@@ -4,7 +4,7 @@
       "name": "pfq",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "network_vpc",
         "Technology"
@@ -72,7 +72,7 @@
               {
                 "diagram": {
                   "caption": "Architecture diagram",
-                  "url": "https://raw.githubusercontent.com/l2fprod/simple-da/main/xdocs/architecture.svg",
+                  "url": "https://github.com/IBM-Cloud/nodejs-MEAN-stack/blob/master/ReadME-Images/Architecture.png",
                   "metadata": []
                 },
                 "description": "A simple deployable architecture."
